@@ -1,5 +1,3 @@
-index.html
-Este é o arquivo principal do seu site. Ele contém toda a estrutura que você me passou:
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -53,11 +51,6 @@ Este é o arquivo principal do seu site. Ele contém toda a estrutura que você 
     </ul>
   </section>
 
-  <section id="curriculo">
-    <h2>Currículo Técnico</h2>
-    <a href="curriculo.pdf" download>📄 Baixar currículo completo em PDF</a>
-  </section>
-
   <section id="contato">
     <h2>Contato</h2>
     <p><strong>E-mail:</strong> eduardo@bravopericias.com.br</p>
@@ -79,52 +72,3 @@ Este é o arquivo principal do seu site. Ele contém toda a estrutura que você 
   </footer>
 </body>
 </html>
-
-
-
-🎨 estilos.css
-Este é o arquivo de estilo básico para deixar seu site mais elegante:
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
-}
-
-header {
-  background-color: #004080;
-  color: white;
-  padding: 20px;
-  text-align: center;
-}
-
-nav a {
-  margin: 10px;
-  padding: 10px 15px;
-  background-color: #0066cc;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-section {
-  padding: 20px;
-  margin: 10px;
-  background-color: white;
-  border-radius: 5px;
-}
-
-footer {
-  text-align: center;
-  padding: 10px;
-  background-color: #004080;
-  color: white;
-}
-
-
-
-Para publicar, basta subir esses dois arquivos no seu repositório bravopericias.github.io, junto com o curriculo.pdf se quiser ativar o botão de download.
-Depois disso, seu site estará acessível em https://bravopericias.github.io. Se quiser ajuda para configurar o domínio próprio, posso te guiar também!
-
