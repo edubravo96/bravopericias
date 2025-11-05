@@ -31,30 +31,27 @@
       </ul>
     </section>
 
-   <main>
-  <section id="servicos">
-    <h2>Serviços</h2>
-    <ul>
-      <li>Análise e contestação de laudos periciais</li>
-      <li>Emissão de laudo/parecer técnico</li>
-      <li>Apoio técnico a advogados em todas as fases do processo</li>
-    </ul>
-  </section>
+    <section id="servicos">
+      <h2>Serviços</h2>
+      <ul>
+        <li>Análise e contestação de laudos periciais</li>
+        <li>Emissão de laudo/parecer técnico</li>
+        <li>Apoio técnico a advogados em todas as fases do processo</li>
+      </ul>
+    </section>
 
-  <section id="areas">
-    <h2>Áreas de Atuação</h2>
-    <p>Perícia e cálculos financeiros</p>
-  </section>
+    <section id="areas">
+      <h2>Áreas de Atuação</h2>
+      <p>Perícia e cálculos financeiros</p>
+    </section>
 
-  <section id="contato">
-    <h2>Contato</h2>
-    <p><strong>E-mail:</strong> eduardo@bravopericias.com.br</p>
-    <p><strong>WhatsApp:</strong> (18) 99129-8238</p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/paulo-eduardo-dias-bravo-1aaa71243" target="_blank">Perfil</a></p>
-    <p><strong>Atendimento:</strong> Todo o Brasil (online e presencial sob agendamento)</p>
-
-  </section>
-</main>
+    <section id="contato">
+      <h2>Contato</h2>
+      <p><strong>E-mail:</strong> eduardo@bravopericias.com.br</p>
+      <p><strong>WhatsApp:</strong> (18) 99129-8238</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/paulo-eduardo-dias-bravo-1aaa71243" target="_blank">Perfil</a></p>
+      <p><strong>Atendimento:</strong> Todo o Brasil (online e presencial sob agendamento)</p>
+    </section>
   </main>
 
   <footer>
@@ -73,17 +70,14 @@
   </a>
 
   <!-- Script para alternar modo escuro -->
-<script>
-<script>
-  const toggleBtn = document.getElementById('toggle-dark');
-  toggleBtn.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-    toggleBtn.innerHTML = document.body.classList.contains('dark-mode')
-      ? '<i class="fa-solid fa-sun"></i>'
-      : '<i class="fa-solid fa-moon"></i>';
-  });
-</script>
-  });
-</script>
+  <script>
+    const toggleBtn = document.getElementById('toggle-dark');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      toggleBtn.innerHTML = document.body.classList.contains('dark-mode')
+        ? '<i class="fa-solid fa-sun"></i>'
+        : '<i class="fa-solid fa-moon"></i>';
+    });
+  </script>
 </body>
 </html>
