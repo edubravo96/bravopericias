@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bravo Perícias | Eduardo Bravo</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <style>
     html {
       scroll-behavior: smooth;
@@ -65,7 +64,6 @@
       padding: 15px;
       font-size: 0.9em;
     }
-    /* Botão flutuante do WhatsApp */
     .whatsapp-button {
       position: fixed;
       bottom: 20px;
@@ -80,7 +78,6 @@
     .whatsapp-button i {
       font-size: 1.5em;
     }
-    /* Responsividade */
     @media (max-width: 600px) {
       header h1 {
         font-size: 1.5em;
@@ -98,7 +95,6 @@
     <h1>BRAVO PERÍCIAS</h1>
     <h2>Eduardo Bravo</h2>
     <p><em>Perito Judicial Financeiro / Assistência Técnica | Administrador CRA-SP 093563</em></p>
-    <p><strong>Atuação técnica precisa e imparcial em processos judiciais. Especialista em perícias financeiras.</strong></p>
     <nav>
       <a href="#servicos">📄 Ver Serviços</a>
       <a href="#contato">📧 Fale Comigo</a>
@@ -106,20 +102,6 @@
   </header>
 
   <main>
-    <section id="sobre">
-      <h2>Sobre</h2>
-      <p>
-        Sou Administrador com registro ativo no CRA-SP e atuo como Perito Judicial Financeiro e Assistente Técnico,
-        auxiliando o Poder Judiciário, advogados e empresas na análise técnica de questões financeiras.
-      </p>
-      <ul>
-        <li><strong>Formação:</strong> Bacharel em Administração</li>
-        <li><strong>Registro:</strong> CRA-SP nº 093563</li>
-        <li><strong>Cadastro:</strong> Perito no TJSP</li>
-        <li><strong>Atuação:</strong> Todo o território nacional (online)</li>
-      </ul>
-    </section>
-
     <section id="servicos">
       <h2>Serviços</h2>
       <ul>
