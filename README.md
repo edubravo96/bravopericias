@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bravo Perícias | Eduardo Bravo</title>
   <link rel="stylesheet" href="estilos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
   <header>
@@ -64,5 +65,27 @@
   <footer>
     <p>&copy; 2025 Bravo Perícias | Todos os direitos reservados</p>
   </footer>
+
+  <!-- Botão de alternância de modo escuro -->
+  <button id="toggle-dark" title="Alternar modo" style="position:fixed;top:20px;right:20px;padding:10px;border:none;border-radius:50%;background:#003366;color:#fff;cursor:pointer;z-index:1000;">
+    <i class="fa-solid fa-moon"></i>
+  </button>
+
+  <!-- Botão flutuante do WhatsApp -->
+  <a href="https://wa.me/5518991298238?text=Olá%20Eduardo,%20gostaria%20de%20falar%20sobre%20perícia%20financeira" target="_blank" title="Fale pelo WhatsApp"
+     style="position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:15px;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.3);z-index:1000;">
+    <i class="fa-brands fa-whatsapp fa-xl"></i>
+  </a>
+
+  <!-- Script para alternar modo escuro -->
+  <script>
+    const toggleBtn = document.getElementById('toggle-dark');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+      toggleBtn.innerHTML = document.body.classList.contains('dark-mode')
+        ? '<i class="fa-solid fa-sun"></i>'
+        : '<i class="fa-solid fa-moon"></i>';
+    });
+  </script>
 </body>
-</html>
+</html>    
