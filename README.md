@@ -1,157 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bravo Perícias | Eduardo Bravo</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #fff;
-      color: #000;
-    }
-    header {
-      background-color: #003366;
-      color: #fff;
-      padding: 30px 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin-bottom: 5px;
-    }
-    nav {
-      margin-top: 15px;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 10px;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    section {
-      margin-bottom: 50px;
-    }
-    h2 {
-      color: #003366;
-      margin-bottom: 10px;
-    }
-    ul {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-    a {
-      color: #0066cc;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    footer {
-      background-color: #f0f0f0;
-      text-align: center;
-      padding: 15px;
-      font-size: 0.9em;
-    }
-    .whatsapp-button {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25D366;
-      color: #fff;
-      padding: 15px;
-      border-radius: 50%;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-      z-index: 1000;
-    }
-    .whatsapp-button i {
-      font-size: 1.5em;
-    }
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.5em;
-      }
-      nav a {
-        display: block;
-        margin: 10px 0;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bravo Perícias</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <header>
     <h1>BRAVO PERÍCIAS</h1>
     <h2>Eduardo Bravo</h2>
-    <p><em>Perito Judicial Financeiro / Assistência Técnica | Administrador CRA-SP 093563</em></p>
-    <p><strong>Atuação técnica precisa e imparcial em processos judiciais. Especialista em perícias financeiras.</strong></p>
-    <nav>
+    <p class="subtitle">Atuação técnica precisa e imparcial em processos judiciais. Especialista em perícias financeiras.</p>
+    <div class="cta-buttons">
       <a href="#servicos">📄 Ver Serviços</a>
       <a href="#contato">📧 Fale Comigo</a>
-    </nav>
+    </div>
   </header>
 
-  <main>
-    <section id="sobre">
-      <h2>Sobre</h2>
-      <p>
-        Sou Administrador com registro ativo no CRA-SP e atuo como Perito Judicial Financeiro e Assistente Técnico,
-        auxiliando o Poder Judiciário, advogados e empresas na análise técnica de questões financeiras.
-      </p>
-      <ul>
-        <li><strong>Formação:</strong> Bacharel em Administração</li>
-        <li><strong>Registro:</strong> CRA-SP nº 093563</li>
-        <li><strong>Cadastro:</strong> Perito no TJSP</li>
-        <li><strong>Atuação:</strong> Todo o território nacional (online)</li>
-      </ul>
-    </section>
+  <section id="sobre">
+    <h3>👤 SOBRE</h3>
+    <p>Sou Administrador com registro ativo no CRA-SP e atuo como Perito Judicial Financeiro e Assistente Técnico, auxiliando o Poder Judiciário, advogados e empresas na análise técnica de questões financeiras.</p>
+    <ul>
+      <li><strong>Formação Acadêmica:</strong> Bacharel em Administração</li>
+      <li><strong>Registro Profissional:</strong> CRA-SP nº 093563</li>
+      <li><strong>Cadastro:</strong> Perito no TJSP</li>
+      <li><strong>Atuação:</strong> Todo o território nacional (online)</li>
+    </ul>
+  </section>
 
-    <section id="servicos">
-      <h2>Serviços</h2>
-      <ul>
-        <li>Análise e contestação de laudos periciais</li>
-        <li>Emissão de laudo/parecer técnico</li>
-        <li>Apoio técnico a advogados em todas as fases do processo</li>
-      </ul>
-    </section>
+  <section id="servicos">
+    <h3>🧑‍⚖️ SERVIÇOS</h3>
+    <ul>
+      <li>Análise e contestação de laudos periciais</li>
+      <li>Emissão de laudo/parecer técnico</li>
+      <li>Apoio técnico a advogados em todas as fases do processo</li>
+    </ul>
+  </section>
 
-    <section id="areas">
-      <h2>Áreas de Atuação</h2>
-      <ul>
-        <li>Perícia e cálculos financeiros</li>
-      </ul>
-    </section>
+  <section id="areas">
+    <h3>📌 ÁREAS DE ATUAÇÃO</h3>
+    <ul>
+      <li>Perícia e cálculos financeiros</li>
+    </ul>
+  </section>
 
-    <section id="contato">
-      <h2>Contato</h2>
-      <ul>
-        <li><strong>E-mail:</strong> <a href="mailto:eduardo@bravopericias.com.br">eduardo@bravopericias.com.br</a></li>
-        <li><strong>WhatsApp:</strong> <a href="https://wa.me/5518991298238?text=Olá%20Eduardo,%20gostaria%20de%20falar%20sobre%20perícia%20financeira" target="_blank" rel="noopener">(18) 99129-8238</a></li>
-        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/paulo-eduardo-dias-bravo-1aaa71243" target="_blank" rel="noopener">Perfil</a></li>
-        <li><strong>Atendimento:</strong> Todo o Brasil (online e presencial sob agendamento)</li>
-      </ul>
-    </section>
-  </main>
+  <section id="contato">
+    <h3>📞 CONTATO</h3>
+    <p><strong>E-mail:</strong> <a href="mailto:eduardo@bravopericias.com.br">eduardo@bravopericias.com.br</a></p>
+    <p><strong>Telefone / WhatsApp:</strong> <a href="tel:+5518991298238">(18) 99129-8238</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/paulo-eduardo-dias-bravo-1aaa71243" target="_blank">Perfil Profissional</a></p>
+    <p><strong>Atendimento:</strong> Todo o Brasil (atuação online e presencial sob agendamento)</p>
+  </section>
 
   <footer>
-    <p>&copy; 2025 Bravo Perícias | Todos os direitos reservados</p>
+    <p>&copy; 2025 Eduardo Bravo - Bravo Perícias</p>
   </footer>
-
-  <a class="whatsapp-button" href="https://wa.me/5518991298238?text=Olá%20Eduardo,%20gostaria%20de%20falar%20sobre%20perícia%20financeira"
-     target="_blank" title="Fale pelo WhatsApp" rel="noopener">
-    <i class="fa-brands fa-whatsapp"></i>
-  </a>
 </body>
 </html>
