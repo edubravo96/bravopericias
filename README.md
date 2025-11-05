@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="estilos.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
+
 <body>
   <header>
     <h1>BRAVO PERÍCIAS</h1>
@@ -22,7 +23,10 @@
   <main>
     <section id="sobre">
       <h2>Sobre</h2>
-      <p>Sou Administrador com registro ativo no CRA-SP e atuo como Perito Judicial Financeiro e Assistente Técnico, auxiliando o Poder Judiciário, advogados e empresas na análise técnica de questões financeiras.</p>
+      <p>
+        Sou Administrador com registro ativo no CRA-SP e atuo como Perito Judicial Financeiro e Assistente Técnico,
+        auxiliando o Poder Judiciário, advogados e empresas na análise técnica de questões financeiras.
+      </p>
       <ul>
         <li><strong>Formação:</strong> Bacharel em Administração</li>
         <li><strong>Registro:</strong> CRA-SP nº 093563</li>
@@ -47,8 +51,8 @@
 
     <section id="contato">
       <h2>Contato</h2>
-      <p><strong>E-mail:</strong> eduardo@bravopericias.com.br</p>
-      <p><strong>WhatsApp:</strong> (18) 99129-8238</p>
+      <p><strong>E-mail:</strong> <a href="mailto:eduardo@bravopericias.com.br">eduardo@bravopericias.com.br</a></p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/5518991298238?text=Olá%20Eduardo,%20gostaria%20de%20falar%20sobre%20perícia%20financeira" target="_blank">(18) 99129-8238</a></p>
       <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/paulo-eduardo-dias-bravo-1aaa71243" target="_blank">Perfil</a></p>
       <p><strong>Atendimento:</strong> Todo o Brasil (online e presencial sob agendamento)</p>
     </section>
@@ -59,25 +63,17 @@
   </footer>
 
   <!-- Botão de alternância de modo escuro -->
-  <button id="toggle-dark" title="Alternar modo" style="position:fixed;top:20px;right:20px;padding:10px;border:none;border-radius:50%;background:#003366;color:#fff;cursor:pointer;z-index:1000;">
+  <button id="toggle-dark" title="Alternar modo"
+    style="position:fixed;top:20px;right:20px;padding:10px;border:none;border-radius:50%;background:#003366;color:#fff;cursor:pointer;z-index:1000;">
     <i class="fa-solid fa-moon"></i>
   </button>
 
   <!-- Botão flutuante do WhatsApp -->
-  <a href="https://wa.me/5518991298238?text=Olá%20Eduardo,%20gostaria%20de%20falar%20sobre%20perícia%20financeira" target="_blank" title="Fale pelo WhatsApp"
+  <a href="https://wa.me/5518991298238?text=Olá%20Eduardo,%20gostaria%20de%20falar%20sobre%20perícia%20financeira"
+     target="_blank" title="Fale pelo WhatsApp"
      style="position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:15px;border-radius:50%;box-shadow:0 2px 6px rgba(0,0,0,0.3);z-index:1000;">
     <i class="fa-brands fa-whatsapp fa-xl"></i>
   </a>
 
-  <!-- Script para alternar modo escuro -->
-  <script>
-    const toggleBtn = document.getElementById('toggle-dark');
-    toggleBtn.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-      toggleBtn.innerHTML = document.body.classList.contains('dark-mode')
-        ? '<i class="fa-solid fa-sun"></i>'
-        : '<i class="fa-solid fa-moon"></i>';
-    });
-  </script>
 </body>
 </html>
