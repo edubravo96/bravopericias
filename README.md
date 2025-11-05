@@ -53,13 +53,22 @@
     <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/paulo-eduardo-dias-bravo-1aaa71243" target="_blank">Perfil</a></p>
     <p><strong>Atendimento:</strong> Todo o Brasil (online e presencial sob agendamento)</p>
 
-    <form action="enviar.php" method="POST">
-      <label>Nome:<br><input type="text" name="nome" required /></label><br>
-      <label>E-mail:<br><input type="email" name="email" required /></label><br>
-      <label>Telefone:<br><input type="tel" name="telefone" /></label><br>
-      <label>Mensagem:<br><textarea name="mensagem" required></textarea></label><br>
-      <button type="submit">Enviar</button>
-    </form>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Teste de Formulário</title>
+</head>
+<body>
+  <form action="enviar.php" method="POST">
+    <label>Nome:<br><input type="text" name="nome" required /></label><br>
+    <label>E-mail:<br><input type="email" name="email" required /></label><br>
+    <label>Telefone:<br><input type="tel" name="telefone" /></label><br>
+    <label>Mensagem:<br><textarea name="mensagem" required></textarea></label><br>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>
   </section>
 </main>
   </main>
