@@ -70,6 +70,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.foto-sobre {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: block;
+}
+
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
