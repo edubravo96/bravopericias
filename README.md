@@ -46,11 +46,11 @@
   <section id="contato">
     <h3>📞 CONTATO</h3>
     <p><strong>E-mail:</strong> <a href="mailto:eduardo@bravopericias.com.br">eduardo@bravopericias.com.br</a></p>
-    <p><strong>Telefone / WhatsApp:</strong> <a href="https://wa.me/5518991298238" target="_blank">(18) 99129-8238</a></p>
+    <p><strong>Telefone / WhatsApp:</strong> <a href="https://wa.me/5517991336586" target="_blank">(17) 99133-6586</a></p>
     <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/paulo-eduardo-dias-bravo-1aaa71243" target="_blank">Perfil Profissional</a></p>
     <p>Atendimento online em todo o Brasil</p>
   </section>
 
-  <a href="https://wa.me/5518991298238" class="whatsapp-float" target="_blank" title="Fale comigo no WhatsApp">💬</a>
+  <a href="https://wa.me/5517991336586" class="whatsapp-float" target="_blank" title="Fale comigo no WhatsApp">💬</a>
 </body>
 </html>
